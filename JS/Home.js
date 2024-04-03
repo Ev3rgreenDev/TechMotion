@@ -2,19 +2,19 @@ const dropdownBtn = document.getElementById("btn");
 const dropdownMenu = document.getElementById("dropdown");
 const toggleArrow = document.getElementById("arrow");
 
-// Toggle dropdown function
+// Toggle do menu
 const toggleDropdown = function () {
   dropdownMenu.classList.toggle("show");
   toggleArrow.classList.toggle("arrow");
 };
 
-// Toggle dropdown open/close when dropdown button is clicked
+// Toggle de abrir e fechar quando é clicado
 dropdownBtn.addEventListener("click", function (e) {
   e.stopPropagation();
   toggleDropdown();
 });
 
-// Close dropdown when dom element is clicked
+// Fecha o dropdown qnd seleciona
 document.documentElement.addEventListener("click", function () {
   if (dropdownMenu.classList.contains("show")) {
     toggleDropdown();
