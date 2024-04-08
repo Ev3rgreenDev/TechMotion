@@ -13,7 +13,6 @@ A equipe do projeto é composta pelos seguintes integrantes:
 - Pedro Augusto Santana
 - Pedro Henrique Marina Andrade
 - Rodrigo Berlitz
-
 ## Beneficiário
 O beneficiário do projeto a ser elaborado é o aluno Rodrigo Berlitz, dono da empresa a qual será desenvolvida o site.
 ## Motivo da escolha

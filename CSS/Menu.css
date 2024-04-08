@@ -1,4 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+/* Style the header */
+.header {
+  padding: 10px 16px;
+  background: #2536a4;
+  color: #f1f1f1;
+  height: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +38,8 @@
   --gap: 0.5rem;
   --radius: 5px;
 }
-
 body {
-  margin: 2rem;
+  /* margin: 2rem; */  /*margem retirada pois fazia o header se deslocar*/
   background-color: #b3e6f4;
   font-size: 0.9rem;
   color: black;
