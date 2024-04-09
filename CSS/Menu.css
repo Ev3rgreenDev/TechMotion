@@ -2,9 +2,9 @@
 /* Style the header */
 .header {
   padding: 10px 16px;
-  background: #2536a4;
+  background: #06274F;
   color: #f1f1f1;
-  height: 100px;
+  height: 80px;
   top: 0;
   left: 0;
   right: 0;
@@ -24,9 +24,9 @@
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
+/* .sticky + .content {
   padding-top: 102px;
-}
+} */
 * {
   margin: 0;
   padding: 0;
@@ -40,12 +40,12 @@
 }
 body {
   /* margin: 2rem; */  /*margem retirada pois fazia o header se deslocar*/
-  background-color: #b3e6f4;
+  background-color: rgb(219, 219, 219);
   font-size: 0.9rem;
-  color: black;
+  color: #024c9b;
 }
 
-.btn {
+/* .btn {
   background-color: white;
   display: flex;
   align-items: center;
@@ -57,13 +57,13 @@ body {
   border: none;
   box-shadow: var(--shadow);
   position: relative;
-}
+} */
 
 .bx {
   font-size: 1.1rem;
 }
 
-.dropdown {
+/* .dropdown {
   position: absolute;
   width: 250px;
   box-shadow: var(--shadow);
@@ -75,19 +75,19 @@ body {
   opacity: 0;
   transform: translateY(0.5rem);
   transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
-}
+} */
 
-.dropdown a {
-  display: flex;
+a {
+  /* display: flex;
   align-items: center;
-  column-gap: var(--gap);
+  column-gap: var(--gap); */
   padding: 0.8rem 1rem;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
-.dropdown a:hover {
-  background-color: var(--color);
+a:hover {
+  background-color: #56677F;
   color: white;
 }
 
@@ -97,11 +97,12 @@ body {
   transform: translateY(0rem);
 }
 
-.arrow {
+/* .arrow {
   transform: rotate(180deg);
   transition: 0.2s ease;
-}
+} */
 
-h1{
+div{
   text-align: center;
+  margin-top: 20px;
 }
