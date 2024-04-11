@@ -1,6 +1,15 @@
 p{
     font-size: 1rem;
+    margin-left: 315px;
 }
 .bx{
    font-size: 1.01rem; 
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-indent: 3rem;
+    margin-left: 315px;
+    margin-right: 315px;
 }

@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.start{
+    text-align: center;
+
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.coluna1{
+    float: left;
+    margin-left: 22%;
+
+}
+.coluna2{
+    float: right;
+    list-style-type: none;
+    margin-right: 22%;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 7px;
+}
