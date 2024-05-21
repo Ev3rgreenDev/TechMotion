@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap);
 /* Style the header */
 .header {
-  padding: 10px 16px;
+  padding: 2.5px 16px;
   background: white;
   color: rgb(7, 38, 78);
   height: 80px;
@@ -40,9 +41,9 @@
 }
 body {
   /* margin: 2rem; */  /*margem retirada pois fazia o header se deslocar*/
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(6, 39, 79);
   font-size: 0.9rem;
-  color: #024c9b;
+  color: white;
 }
 
 /* .btn {
@@ -84,7 +85,10 @@ a {
   padding: 0.8rem 1rem;
   text-decoration: none;
   color: rgb(7, 38, 78);
-  
+  font-family: "Catamaran", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
 }
 
 a:hover {
