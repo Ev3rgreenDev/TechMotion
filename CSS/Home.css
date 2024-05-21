@@ -1,11 +1,12 @@
 @font-face {
-    font-family: conthrax-sb;
-    src: url(IMGS\conthrax-sb.ttf);
+    font-family: "Conthrax";
+    src: url(conthrax-sb.ttf);
 }
 h1{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 15px;
+    font-family: "Conthrax";
 }
 h3{
     text-indent: 2em;
