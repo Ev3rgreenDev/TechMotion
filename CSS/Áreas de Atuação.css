@@ -23,7 +23,7 @@
 }
 .O_IMAG{
     text-align: center;
-    margin-top: 10px;
+    margin: 20px;
 }
 
 .LISTA_P{
@@ -38,17 +38,27 @@
 }
 .LISTA_P h3{
     text-align: center;
-    font-size: 65px;
+    font-size: 55px;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 .GRADE_P{
     display: grid;
-    grid-template-columns: 60% auto;
-    gap: 10px;    
+    grid-template-columns: auto auto;
+    gap: 5px;    
 }
 .GRADE_P div ul li{
     text-align: justify;
     margin-left: 50px;
+}
+.GRADE_P div ul{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.GRADE_IMG{
+    margin-left: 40px;
+    margin-top: 45px;
+    text-align: right;
 }
 
 .DIFERENCIAIS{
@@ -77,4 +87,7 @@
     background-color: rgb(192, 202, 211);
     width: 100%;
     height: 300px;
+}
+.LOGO{
+    align-content: center;
 }
