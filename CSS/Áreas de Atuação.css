@@ -1,0 +1,80 @@
+.OFERTA{
+    background-color: rgb(6, 39, 79);
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    color: white;
+    padding: 30px;
+}
+.OFERTA div h3{
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.OFERTA div p{
+    font-size: 20px;
+    text-align: justify;
+}
+.OFERTA ul{
+    list-style-type: disc;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.O_IMAG{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.LISTA_P{
+    margin-top: 0px;
+    background-color: rgb(13, 68, 136);
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+}
+.LISTA_P h3{
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.GRADE_P{
+    display: grid;
+    grid-template-columns: 60% auto;
+    gap: 10px;    
+}
+.GRADE_P div ul li{
+    text-align: justify;
+    margin-left: 50px;
+}
+
+.DIFERENCIAIS{
+    background-color: rgb(134, 152, 173);
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+    color: white;
+    padding: 30px;
+}
+.DIFERENCIAIS h3{
+    text-align: center;
+    font-size: 65px;
+}
+.DIFERENCIAIS div h3{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.DIFERENCIAIS div p{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.RODAPE{
+    text-align: center;
+    background-color: rgb(192, 202, 211);
+    width: 100%;
+    height: 300px;
+}
