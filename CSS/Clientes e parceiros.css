@@ -1,31 +1,70 @@
-h1{
+.FORNECEDORES{
+    background-color: rgb(20, 32, 69);
+    height: auto;
+    width: auto;
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+}
+.FORNECEDORES h3{
+    font-size: 65px;
     text-align: center;
-    margin-left: 400px;
-    margin-right: 400px;
-}
-.start{
-    text-align: center;
-
-    margin-left: 200px;
-    margin-right: 200px;
-}
-.coluna1{
-    float: left;
-    margin-left: 22%;
-
-}
-.coluna2{
-    float: right;
-    list-style-type: none;
-    margin-right: 22%;
     margin-bottom: 20px;
 }
-li{
-    list-style-type: none;
-    margin-bottom: 7px;
+.FORNECEDORES p{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 40px;
 }
-.COLUNAS{
+.CLIENTES{
     display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 1px;
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 0px;
+}
+.PARCEIROS{
+    background-color: blue;
+    width: auto;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.PESSOAS{
+    display: grid;
+    grid-template-columns: 26% auto;
+
+}
+.PESSOAS h3{
+    font-size: 65px;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+.PESSOAS p{
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+.PESSOAS li{
+    font-size: 20px;
+    margin-left: 5%;
+}
+.P_IMAG{
+    width: 100%;
+    max-width: 100%;
+    min-width: 280px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.PESSOAS div p{
+    font-size: 30px;
+}
+.TEXTO {
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
