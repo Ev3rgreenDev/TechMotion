@@ -10,7 +10,7 @@ html, body {
 }
 
 div.body-content{
-      padding-bottom: 368px;
+      padding-bottom: 458px;
 }
 
 .RODAPE{
@@ -21,4 +21,8 @@ div.body-content{
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.img-rodape{   
+    margin-top: 25px;
 }
