@@ -1,5 +1,5 @@
 .FORNECEDORES{
-    background-color: rgb(20, 32, 69);
+    background-color: rgb(7, 39, 69);
     height: auto;
     width: auto;
     padding-left: 60px;
@@ -26,7 +26,7 @@
     margin-bottom: 0px;
 }
 .PARCEIROS{
-    background-color: blue;
+    background-color: rgb(7, 39, 69);
     width: auto;
     height: auto;
     padding-top: 40px;

@@ -1,13 +1,9 @@
-@font-face {
-    font-family: "Conthrax";
-    src: url(file:///C:/Users/Pedro/Documents/GitHub/TechMov/IMGS/conthrax-sb.ttf);
-}
-
-
 h1{
     font-family: "Conthrax";
     font-size: 72px;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 h3{
     text-indent: 2em;
@@ -16,20 +12,21 @@ h3{
     line-height: 1.5;
 }
 
+.parte1{
+    padding-top: 50px;
+    background-color: rgb(7, 39, 69);
+    padding-bottom: 50px;
+}
+
 .coluna1{
-    float: left;
-    margin-left: 10%;
     margin-left: 200px;
+    color: white;
 }
 .coluna2{
-    float: right;
-    margin-right: 10%;
     margin-right: 200px;
 } 
-
 .colunas{
     display: grid;
     grid-template-columns: auto auto;
     gap: 150px;
-    margin-top: 80px;
 }

@@ -33,13 +33,13 @@ body{
 
 .LISTA_P{
     margin-top: 0px;
-    background-color: rgb(13, 68, 136);
+    background-color: rgba(127, 140, 158, 0.25);
     width: auto;
     height: 100%;
-    color: white;
     text-align: justify;
     padding: 30px;
     font-size: 20px;
+    color: rgb(6, 39, 79);
 }
 .LISTA_P h3{
     text-align: center;
@@ -67,7 +67,7 @@ body{
 }
 
 .DIFERENCIAIS{
-    background-color: rgb(134, 152, 173);
+    background-color: rgb(6, 39, 79);
     height: auto;
     width: auto;
     margin-top: 0px;

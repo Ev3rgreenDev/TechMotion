@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap);
+@font-face {
+  font-family: "Conthrax";
+  src: url(file:///C:/Users/Pedro/Documents/GitHub/TechMov/IMGS/conthrax-sb.ttf);
+}
+
 /* Style the header */
 .header {
   padding: 16px;
@@ -10,7 +15,7 @@
   width: auto;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-  text-align: center
+  text-align: center;
 }
 
 .img-header{
@@ -24,59 +29,19 @@
   width: 100%
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 102px;
-}
-
-* {
+body {
   margin: 0;
   padding: 0;
 }
 
-body {
-  /* margin: 2rem; */  /*margem retirada pois fazia o header se deslocar*/
-  background-color: rgb(6, 39, 79);
-  font-size: 0.9rem;
-  color: white;
-}
-
-/* .btn {
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  column-gap: var(--gap);
-  padding: 0.6rem;
-  cursor: pointer;
-  border-radius: var(--radius);
-  border: none;
-  box-shadow: var(--shadow);
-  position: relative;
-} */
 
 .bx {
   font-size: 1.1rem;
+  font-weight: bolder;
 }
 
-/* .dropdown {
-  position: absolute;
-  width: 250px;
-  box-shadow: var(--shadow);
-  border-radius: var(--radius);
-  margin-top: 0.3rem;
-  background: white;
-
-  visibility: hidden;
-  opacity: 0;
-  transform: translateY(0.5rem);
-  transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
-} */
 
 a {
-  /* display: flex;
-  align-items: center;
-  column-gap: var(--gap); */
   padding: 0.8rem 1rem;
   text-decoration: none;
   color: rgb(7, 38, 78);
@@ -91,19 +56,12 @@ a:hover {
   color: white;
 }
 
-.show {
-  visibility: visible;
-  opacity: 1;
-  transform: translateY(0rem);
-}
-
-/* .arrow {
-  transform: rotate(180deg);
-  transition: 0.2s ease;
-} */
 
 .icones{
-  text-align: center;
   margin-top: 20px;
+}
+
+p, h3, li{
+  font-family: "Conthrax";
 }
 
