@@ -1,90 +1,116 @@
 body{
-    width: auto;
+    width: 100%;
     margin: 0px;
 }
+
+*{
+    margin: 0;
+}
+/*background-color: rgb(6, 39, 79);
+ background-color: rgba(127, 140, 158, 0.25);
+ color: rgb(6, 39, 79);
+ background-color: rgb(6, 39, 79);
+
+*/
+/* Oferta Personalizada: Produtos e Serviços */
 
 .OFERTA{
     background-color: rgb(6, 39, 79);
     width: auto;
     height: auto;
-    text-align: justify;
-    color: white;
-    padding: 30px;
-}
-.OFERTA div h3{
-    font-size: 65px;
+    padding: 40px;
     text-align: center;
+}
+.OFERTA h1{
+    font-size: 52px;
     margin-bottom: 30px;
+    text-align: center;
 }
-.OFERTA div p{
+.OFERTA p{
     font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
     text-align: justify;
 }
-.OFERTA ul{
-    list-style-type: disc;
-    margin-left: 50px;
-    margin-top: 40px;
-    font-size: 20px;
+.OFERTA img{
+    width: auto;
+    height: 28vw;
+    max-height: 320px;
+    max-width: 800px;
+    border-radius: 50px;
+    margin: 0;
 }
-.O_IMAG{
-    text-align: center;
-    margin: 20px;
-}
+/*Projetos Inovadores e Personalizados a sua Necessidade*/
 
-.LISTA_P{
-    margin-top: 0px;
+.PROJETO{
     background-color: rgba(127, 140, 158, 0.25);
     width: auto;
-    height: 100%;
-    text-align: justify;
-    padding: 30px;
-    font-size: 20px;
-    color: rgb(6, 39, 79);
+    height: auto;
+    vertical-align: center;
+    text-align: left;
 }
-.LISTA_P h3{
-    text-align: center;
-    font-size: 55px;
-    margin-bottom: 20px;
-    margin-top: 30px;
+.PROJETO .QUADRO{
+    padding: 1vw;
+    margin: 0;
+    background-color: rgba(127, 140, 158, 0.25);
 }
-.GRADE_P{
+.P_GRADE{
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 5px;    
-}
-.GRADE_P div ul li{
+    grid-template-columns: 55vw auto;
     text-align: justify;
-    margin-left: 50px;
 }
-.GRADE_P div ul{
+.PROJETO h1{
+    color: rgb(6, 39, 79);
+    font-size: 70px;
+    text-align: center;
+    margin: 2vw;
+}
+.P_GRADE h1{
+    color: rgb(6, 39, 79);
+    font-size: 70px;
     margin-bottom: 20px;
     margin-top: 30px;
+    margin-left: 3vw;
 }
-.GRADE_IMG{
-    margin-left: 40px;
-    margin-top: 45px;
-    text-align: right;
+.P_GRADE ul{
+    list-style-type: disc;
+    margin-left: 3vw;
+}
+.P_GRADE ul li::marker{
+    color: rgb(6, 39, 79);;
+}
+.PROJETO ul p{
+    color: rgb(6, 39, 79);
+    font-size: 25px;
+    margin-left: 0;
+}
+.PROJETO p{
+    color: rgb(6, 39, 79);
+    font-size: 25px;
+    margin-left: 2vw;
+}
+.P_GRADE img{
+    width: auto;
+    height: auto;
+    max-width: 40vw;
+    margin-top: 10%;
+    border-radius: 30px;
 }
 
-.DIFERENCIAIS{
-    background-color: rgb(6, 39, 79);
-    height: auto;
-    width: auto;
-    margin-top: 0px;
-    color: white;
-    padding: 30px;
+@media (max-width: 680px){
+    .P_GRADE{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .P_GRADE p{
+        text-align: justify;
+    }
+    .P_GRADE img{
+        max-width: 80vw;
+    }
 }
-.DIFERENCIAIS h3{
-    text-align: center;
-    font-size: 65px;
-}
-.DIFERENCIAIS div h3{
-    text-align: justify;
-    margin-bottom: 15px;
-}
-.DIFERENCIAIS div p{
-    font-size: 20px;
-    text-align: justify;
-    margin-bottom: 20px;
-}
+
+
+/*DIFERENCIAIS*/
+
 
