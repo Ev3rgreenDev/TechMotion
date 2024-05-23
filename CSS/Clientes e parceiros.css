@@ -1,70 +1,141 @@
-.FORNECEDORES{
-    background-color: rgb(7, 39, 69);
-    height: auto;
-    width: auto;
-    padding-left: 60px;
-    padding-top: 40px;
-    padding-right: 60px;
-    padding-bottom: 10px;
+*{
+    margin: 0;
+    padding: 0;
 }
-.FORNECEDORES h3{
-    font-size: 65px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.FORNECEDORES p{
-    font-size: 20px;
-    text-align: justify;
-    margin-bottom: 40px;
-}
-.CLIENTES{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    gap: 1px;
-    text-align: center;
-    margin: 30px;
-    margin-bottom: 0px;
-}
-.PARCEIROS{
-    background-color: rgb(7, 39, 69);
-    width: auto;
-    height: auto;
-    padding-top: 40px;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-.PESSOAS{
-    display: grid;
-    grid-template-columns: 26% auto;
 
-}
-.PESSOAS h3{
-    font-size: 65px;
-    margin-left: 5%;
-    margin-bottom: 3%;
-}
-.PESSOAS p{
-    margin-left: 5%;
-    margin-bottom: 3%;
-}
-.PESSOAS li{
-    font-size: 20px;
-    margin-left: 5%;
-}
-.P_IMAG{
-    width: 100%;
-    max-width: 100%;
-    min-width: 280px;
-    height: auto;
+h1{
+    font-size: 70px;
+    text-align: center;
     margin-bottom: 30px;
 }
+p{
+    font-size: 25px;
+    text-align: justify;
+}
 
-.PESSOAS div p{
+.CLIENTES{
+    background-color: rgb(6, 39, 79);
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.C_GRADE{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-top: 50px;
+    gap:0.4vw;
+    margin-right: 0;
+}
+.C_GRADE1 img, .C_GRADE2 img{
+    height: 12vw;
+    width: auto;
+    min-height: 160px;
+    object-fit: cover;
+}
+.C_GRADE1, .C_GRADE2{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+@media(max-width: 1080px){
+    .C_GRADE{
+        grid-template-columns: repeat(1, auto);
+        align-items: center;
+        gap: 0;
+        justify-content: center;
+    }
+    .C_GRADE1, .C_GRADE2{
+        align-items: center;
+        gap: 0.6vw;
+        justify-content: center;
+    }
+}
+@media(max-width: 820px){
+    .C_GRADE{
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 0.6vw;
+        justify-content: center;
+    }
+    .C_GRADE1, .C_GRADE2{
+        grid-template-columns: repeat(1, auto);
+        gap: 0vw;
+    }
+    .C_GRADE1 img{
+        display: flex;
+        justify-items: end
+    }
+}
+.PESSOAS *{
+    color: rgb(6, 39, 79);
+    margin: 0;
+}
+.PESSOAS{
+    background-color: rgb(186, 187, 188);
+    margin: 0;
+    width: auto;
+    height: auto;
+    padding: 40px;
+}
+.NOME {
+    font-size: 75px;
+    margin: 40px;
+}
+.PESSOAl h1{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 75px;
+}
+.PESSOAS p{
+    text-align: justify;
     font-size: 30px;
 }
-.TEXTO {
-    font-size: 30px;
+
+.PESSOAL h2{
+    font-size: 35px;
+    margin-bottom: 0;
     text-align: justify;
-    margin-top: 10px;
+}
+
+.PESSOAL {
+    display: grid;
+    grid-template-columns: 20vw auto;
+    text-align: center;
+}
+.PESSOAL h1{
+    text-align: justify;
+    margin-top: 20px;
+}
+.PESSOAL ul{
+    margin-top: 20px;
     margin-bottom: 20px;
+}
+.PESSOAL ul li{
+    list-style-type: disc;
+    margin-left: 30px;
+}
+.PESSOAL img{
+    vertical-align: center;
+    height: auto;
+    width: 16vw;
+    max-height: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+
+@media(max-width:850px){
+    .PESSOAL{
+        grid-template-columns: auto;
+    }
+    .PESSOAL img{
+        width: auto;
+        height: 60vw;
+    }
+    .NOME{
+        margin-bottom: 50px;
+    }
 }
