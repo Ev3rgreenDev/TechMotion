@@ -40,7 +40,7 @@ p{
     grid-template-columns: repeat(3, auto);
 }
 
-@media(max-width: 1080px){
+@media(max-width: 1200px){
     .C_GRADE{
         grid-template-columns: repeat(1, auto);
         align-items: center;

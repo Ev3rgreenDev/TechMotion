@@ -84,10 +84,15 @@
 }
 
 @media (max-width: 1262px){
+  .RODAPE *{
+    margin: 0;
+    padding: 0;
+  }
   .RODAPE .colunaR{
     display: grid;
-    grid-template-columns: auto 70px;
+    grid-template-columns: auto 11.3vw;
     text-align: right;
+    vertical-align: end;
   }
   .RODAPE .colunaR a{
     text-align: left;
