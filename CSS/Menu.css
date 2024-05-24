@@ -46,7 +46,7 @@
 
 .C_ITEM:hover {
   background-color: #56677F;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .icones{
@@ -56,59 +56,46 @@
 /*****************/
 /* RODAPE */
 
-html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-}
-
-#wrapper{
-	min-height: 100%;
-	position: relative;
-}
-
-div.body-content{
-      padding-bottom: 280px;
-}
-
-footer{
-    display: grid;
-    grid-template-columns: 33% auto 33%;
-}
-
-.colunaR{
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-}
-
 .RODAPE{
-    text-align: center;
-    background-color: white;
-    width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  display: grid;
+  grid-template-columns: 25vw auto 25vw;
+  vertical-align: bottom;
+  text-align: center;
+  padding: 10px;
+}
+.RODAPE .colunaR{
+  text-align: right;
+  align-content: end;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.RODAPE img{
+  height: 20vw;
+  width: auto;
+  max-height: 300px ;
+}
+.RODAPE .bx{
+  font-size: 1.4rem;
+  vertical-align: -15%;
+  vertical-align: bottom;
+}
+.RODAPE a{
+  font-size: 20px;
 }
 
-.img-rodape{   
-    height: auto;
-    width: auto;
-    max-height: 20vw;
+@media (max-width: 1262px){
+  .RODAPE .colunaR{
+    display: grid;
+    grid-template-columns: auto 70px;
+    text-align: right;
+  }
+  .RODAPE .colunaR a{
+    text-align: left;
+  }
+  .RODAPE .colunaR .bx{
+    margin-left: auto;
+  }
 }
-
-
-.colunaR .bx{
-    font-size: 1.4rem;
-    vertical-align: -15%;
-}
-
-.link{
-    font-family: "Conthrax";
-    font-size: 20px;
-}
-
 /***************/
 
 /* GERAIS */

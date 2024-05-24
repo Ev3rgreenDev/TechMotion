@@ -58,6 +58,7 @@ body{
     display: grid;
     grid-template-columns: 55vw auto;
     text-align: justify;
+    padding-bottom: 30px;
 }
 .PROJETO h1{
     color: rgb(6, 39, 79);
@@ -78,6 +79,7 @@ body{
 }
 .P_GRADE ul li::marker{
     color: rgb(6, 39, 79);;
+    margin-bottom: 50px;
 }
 .PROJETO ul p{
     color: rgb(6, 39, 79);
