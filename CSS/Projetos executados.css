@@ -1,10 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.TEXTO{
+    background-color: rgb(7, 38, 78);
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
 h1{
+    font-size: 75px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 15px;
 }
 h3{
+    font-size: 25px;
+    text-align: justify;
     text-indent: 2em;
     margin-left: 400px;
     margin-right: 400px;
+    margin-bottom: 20px;
 }

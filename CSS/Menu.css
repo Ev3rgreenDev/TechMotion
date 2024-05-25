@@ -64,10 +64,14 @@
   padding: 10px;
 }
 .RODAPE .colunaR{
+  display: grid;
+  grid-template-columns: auto auto auto;
   text-align: right;
   align-content: end;
   margin-bottom: 10px;
   margin-right: 20px;
+  font-weight: bolder;
+  
 }
 .RODAPE img{
   height: 20vw;
@@ -82,24 +86,40 @@
 .RODAPE a{
   font-size: 20px;
 }
+.RODAPE .colunaR div a:hover{
+  background-color: rgb(7, 38, 78);
+  color: white;
+  padding: 3px;
+  padding-bottom: 5px;
+}
+.RODAPE a:link, .RODAPE a:visited{
+  text-decoration: none;
+  color: rgb(7, 38, 78);
+}
 
-@media (max-width: 1262px){
+@media (max-width: 1310px){
   .RODAPE *{
     margin: 0;
     padding: 0;
   }
+  .RODAPE{
+    display: grid;
+    grid-template-columns: 26vw auto 26vw;
+  }
   .RODAPE .colunaR{
     display: grid;
-    grid-template-columns: auto 11.3vw;
-    text-align: right;
+    grid-template-columns: auto;
+    text-align-last: right;
     vertical-align: end;
+    margin-right: 5px;
   }
-  .RODAPE .colunaR a{
-    text-align: left;
+  .RODAPE .colunaR div{
+    margin-bottom: 10px;
   }
-  .RODAPE .colunaR .bx{
-    margin-left: auto;
+  .RODAPE .colunaR div .ULTIMA{
+    margin-bottom: 0px;
   }
+
 }
 /***************/
 
