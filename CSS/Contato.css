@@ -13,3 +13,9 @@ h3{
     margin-left: 315px;
     margin-right: 315px;
 }
+
+/* **provisório** */
+.body-content{
+    background-color: rgb(7, 39, 69);
+    padding-bottom: 500px;
+}
