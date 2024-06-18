@@ -57,6 +57,8 @@
 /* RODAPE */
 
 .RODAPE{
+  height: auto;
+  width: auto;
   display: grid;
   grid-template-columns: 25vw auto 25vw;
   vertical-align: bottom;
@@ -76,7 +78,6 @@
 .RODAPE img{
   height: 20vw;
   width: auto;
-  max-height: 300px ;
 }
 .RODAPE .bx{
   font-size: 1.4rem;
