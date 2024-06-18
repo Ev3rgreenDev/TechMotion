@@ -1,8 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap);
 @font-face {
-  font-family: "Conthrax";
-  src: url(IMGS/conthrax-sb.ttf);
+  font-family: "Konexy";
+  src: url(IMGS/Konexy\ Font.otf);
+}
+
+/* FONTE */
+*{
+  font-family: "Konexy";
+  letter-spacing: 2.5px;
 }
 
 /* CABEÇARIO */
@@ -42,6 +48,7 @@
   font-weight: 600;
   font-style: normal;
   font-size: 22px;
+  letter-spacing: normal;
 }
 
 .C_ITEM:hover {
@@ -67,7 +74,7 @@
 }
 .RODAPE .colunaR{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   text-align: right;
   align-content: end;
   margin-bottom: 10px;
@@ -76,7 +83,7 @@
   
 }
 .RODAPE img{
-  height: 20vw;
+  height: 15vw;
   width: auto;
 }
 .RODAPE .bx{
@@ -96,7 +103,7 @@
 .RODAPE a:link, .RODAPE a:visited{
   text-decoration: none;
   color: rgb(7, 38, 78);
-  font-family: "Conthrax";
+  font-family: "Konexy";
 }
 
 @media (max-width: 1310px){
@@ -132,7 +139,7 @@ body {
 }
 
 p, h3, li, h1{
-  font-family: "Conthrax";
+  font-family: "Konexy";
   color: white;
 }
 

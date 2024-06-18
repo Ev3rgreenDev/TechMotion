@@ -22,16 +22,56 @@ h3{
     text-indent: 2em;
 }
 
-.execs {
+.execs{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% auto;
     text-align: justify;
     padding-bottom: 30px;
     padding: 3vw; 
     gap: 2vw;
-    background-color: rgba(127, 140, 158, 0.25);
+    background-image: url(IMGS/Fundos/3261436.jpg);
+    background-blend-mode: darken;
+    background-color: rgba(127, 140, 158, 0.35);
+    background-size: auto;
 }
 
 .execs img{
-    
+    margin-left: auto;
+}
+
+.execs h2{
+    color: #D4A94F;
+    font-family: "Konexy"; 
+}
+
+.execs p{
+    color: rgb(7, 38, 78);
+  font-family: "Konexy";
+}
+
+.projetos {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    text-align: left;
+    padding-bottom: 30px;
+    padding: 3vw; 
+    background-image: url(IMGS/Fundos/3409297.jpg);
+    background-size: cover;
+    gap: 2VW;
+}
+
+.projetos img{
+    max-width: 450px;
+    min-height: 300px;
+    max-height: 300px;
+    padding-bottom: 35px;
+}
+
+.projetos h2{
+    color: #D4A94F;
+    font-family: "Konexy"; 
+}
+
+.projText {
+    min-height: 335px;
 }
