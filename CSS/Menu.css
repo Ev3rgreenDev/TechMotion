@@ -96,6 +96,7 @@
 .RODAPE a:link, .RODAPE a:visited{
   text-decoration: none;
   color: rgb(7, 38, 78);
+  font-family: "Conthrax";
 }
 
 @media (max-width: 1310px){
