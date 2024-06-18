@@ -121,7 +121,7 @@ p{
     vertical-align: center;
     height: auto;
     width: 16vw;
-    max-height: 400px;
+    max-width: 16vw;
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 40px;
