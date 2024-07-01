@@ -52,11 +52,14 @@ body{
 .PROJETO .QUADRO{
     padding: 1vw;
     margin: 0;
-    background-color: rgba(127, 140, 158, 0.25);
+    background-image: url(IMGS/Fundos/3261436.jpg);
+    background-blend-mode: darken;
+    background-color: rgba(127, 140, 158, 0.2);
+    background-size: auto;
 }
 .P_GRADE{
     display: grid;
-    grid-template-columns: 55vw auto;
+    grid-template-columns: auto auto;
     text-align: justify;
     padding-bottom: 30px;
 }
