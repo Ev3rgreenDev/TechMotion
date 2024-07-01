@@ -41,12 +41,12 @@ h3{
 
 .execs h2{
     color: #D4A94F;
-    font-family: "Konexy"; 
+    font-family: "Catamaran", sans-serif; 
 }
 
 .execs p{
     color: rgb(7, 38, 78);
-  font-family: "Konexy";
+  font-family: "Catamaran", sans-serif;
 }
 
 .projetos {
@@ -69,7 +69,7 @@ h3{
 
 .projetos h2{
     color: #D4A94F;
-    font-family: "Konexy"; 
+    font-family: "Catamaran", sans-serif; 
 }
 
 .projText {

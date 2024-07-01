@@ -1,13 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap);
 @font-face {
-  font-family: "Octosquare";
-  src: url(IMGS/);
+  font-family: "Catamaran", sans-serif;
+  src: url(IMGS/TT\ Octosquares\ Trial\ Black\ Italic.ttf);
 }
 
 /* FONTE */
 *{
-  font-family: "Konexy";
+  font-family: "Catamaran", sans-serif;
   letter-spacing: 2.5px;
 }
 
@@ -87,12 +87,12 @@
   width: auto;
 }
 .RODAPE .bx{
-  font-size: 1.4rem;
+  font-size: 2rem;
   vertical-align: -15%;
-  vertical-align: bottom;
+  
 }
 .RODAPE a{
-  font-size: 20px;
+  font-size: 1.6rem;
 }
 .RODAPE .colunaR div a:hover{
   background-color: rgb(7, 38, 78);
@@ -103,7 +103,7 @@
 .RODAPE a:link, .RODAPE a:visited{
   text-decoration: none;
   color: rgb(7, 38, 78);
-  font-family: "Konexy";
+  font-family: "Catamaran", sans-serif;
 }
 
 @media (max-width: 1310px){
@@ -139,7 +139,7 @@ body {
 }
 
 p, h3, li, h1{
-  font-family: "Konexy";
+  font-family: "Catamaran", sans-serif;
   color: white;
 }
 
