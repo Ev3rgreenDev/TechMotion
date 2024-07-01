@@ -21,6 +21,9 @@ body{
     padding: 40px;
     text-align: center;
 }
+.OFERTA ul{
+    list-style-type: none;
+}
 .OFERTA h1{
     font-size: 52px;
     margin-bottom: 30px;
@@ -30,7 +33,7 @@ body{
     font-size: 20px;
     margin-bottom: 30px;
     margin-top: 10px;
-    text-align: justify;
+    text-align: center;
 }
 .OFERTA img{
     width: auto;
