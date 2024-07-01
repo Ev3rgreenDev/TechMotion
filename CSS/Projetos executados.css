@@ -41,12 +41,17 @@ h3{
 
 .execs h2{
     color: #D4A94F;
-    font-family: "Konexy"; 
+    font-family: "Catamaran", sans-serif; 
+    font-size: 28px;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 .execs p{
-    color: rgb(7, 38, 78);
-  font-family: "Konexy";
+  color: rgb(7, 38, 78);
+  font-family: "Catamaran", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .projetos {
@@ -69,11 +74,13 @@ h3{
 
 .projetos h2{
     color: #D4A94F;
-    font-family: "Konexy"; 
-    font-size: 35px
+    font-family: "Catamaran", sans-serif; 
+    font-size: 33px;
+    font-weight: bolder;
+    line-height: 110%;
 }
 
 .projText {
-    min-height: 335px;
+    min-height: 340px;
 }
 

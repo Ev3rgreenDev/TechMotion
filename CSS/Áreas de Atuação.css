@@ -29,11 +29,17 @@ body{
     margin-bottom: 30px;
     text-align: center;
 }
+.OFERTA h2{
+    color: white;
+}
 .OFERTA p{
     font-size: 20px;
     margin-bottom: 30px;
     margin-top: 10px;
     text-align: center;
+    font-weight: bolder;
+    color: #D4A94F;
+    text-decoration: underline;
 }
 .OFERTA img{
     width: auto;
@@ -51,6 +57,7 @@ body{
     height: auto;
     vertical-align: center;
     text-align: left;
+    font-weight: bolder;
 }
 .PROJETO .QUADRO{
     padding: 1vw;
@@ -136,7 +143,7 @@ body{
     width: auto;
     background-color: rgb(6, 39, 79);
     padding: 40px;
-    font-family: "Konexy";
+    font-family: "Catamaran", sans-serif;
 }
 .DIFERENCIAIS h1{
     text-align: center;
@@ -149,4 +156,5 @@ body{
 }
 .DIFERENCIAIS p{
     font-size: 30px;
+    padding-bottom: 40px;
 }
