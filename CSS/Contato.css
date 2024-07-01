@@ -1,3 +1,4 @@
+
 p{
     font-size: 1rem;
     margin-left: 315px;
@@ -17,5 +18,11 @@ h3{
 /* **provisório** */
 .body-content{
     background-color: rgb(7, 39, 69);
-    padding-bottom: 500px;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+iframe{
+    margin-left: 26vw;
+    margin-top: 50px;
 }
