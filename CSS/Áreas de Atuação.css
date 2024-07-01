@@ -21,6 +21,9 @@ body{
     padding: 40px;
     text-align: center;
 }
+.OFERTA ul{
+    list-style-type: none;
+}
 .OFERTA h1{
     font-size: 52px;
     margin-bottom: 30px;
@@ -30,7 +33,7 @@ body{
     font-size: 20px;
     margin-bottom: 30px;
     margin-top: 10px;
-    text-align: justify;
+    text-align: center;
 }
 .OFERTA img{
     width: auto;
@@ -52,11 +55,14 @@ body{
 .PROJETO .QUADRO{
     padding: 1vw;
     margin: 0;
-    background-color: rgba(127, 140, 158, 0.25);
+    background-image: url(IMGS/Fundos/3261436.jpg);
+    background-blend-mode: darken;
+    background-color: rgba(127, 140, 158, 0.2);
+    background-size: auto;
 }
 .P_GRADE{
     display: grid;
-    grid-template-columns: 55vw auto;
+    grid-template-columns: auto auto;
     text-align: justify;
     padding-bottom: 30px;
 }
@@ -99,7 +105,7 @@ body{
     border-radius: 30px;
 }
 
-@media (max-width: 680px){
+@media (max-width: 1340px){
     .P_GRADE{
         grid-template-columns: 1fr;
         text-align: center;
@@ -107,8 +113,16 @@ body{
     .P_GRADE p{
         text-align: justify;
     }
+    .PROJETO h1{
+        font-size: 60px;
+    }
     .P_GRADE img{
+        padding: 10px;
         max-width: 80vw;
+        width: auto;
+        margin-top: 30px;
+        border-style: solid;
+        border-color: black;
     }
 }
 
