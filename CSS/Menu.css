@@ -17,7 +17,8 @@
   padding: 16px;
   background: white;
   color: rgb(7, 38, 78);
-  height: 80px;
+  height: auto;
+  min-height: 80px;
   margin: 0;
   width: auto;
   display: grid;
@@ -60,6 +61,18 @@
   margin-top: 20px;
 }
 
+@media(max-width: 1350px){
+  .header .icones{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+@media(max-width: 1000px){
+  .header .icones{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
 /*****************/
 /* RODAPE */
 
@@ -80,7 +93,7 @@
   margin-bottom: 10px;
   margin-right: 20px;
   font-weight: bolder;
-  
+  gap: 15px;
 }
 .RODAPE img{
   height: 15vw;
