@@ -11,8 +11,8 @@ h1{
 }
 h3{
     text-indent: 3rem;
-    margin-left: 315px;
-    margin-right: 315px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 /* **provisório** */
@@ -23,6 +23,25 @@ h3{
 }
 
 iframe{
-    margin-left: 26vw;
+    text-align: center;
+    margin-left: 15%;
     margin-top: 50px;
+    height: 300px;
+    width: 70%;
+}
+
+.linksContatos a{
+    color: #D4A94f;
+}
+
+.linksContatos a:hover{
+  background-color: #000c2e;
+  color: white;
+  padding: 3px;
+  padding-bottom: 5px;
+}
+.linksContatos a:link, .linksContatos a:visited{
+  text-decoration: none;
+  color: #D4A94f;
+  font-family: "Konexy";
 }
