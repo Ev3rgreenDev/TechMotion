@@ -26,3 +26,15 @@ iframe{
     margin-left: 26vw;
     margin-top: 50px;
 }
+
+.listaContatos :hover{
+    background-color: rgb(2, 16, 34);
+    color: #D4A94F;
+    padding: 3px;
+    padding-bottom: 5px;
+  }
+.listaContatos a:link, a:visited{
+    text-decoration: none;
+    color: #D4A94F;
+    font-family: "Catamaran", sans-serif;
+  }
